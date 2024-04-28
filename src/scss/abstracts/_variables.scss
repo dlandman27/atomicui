@@ -38,8 +38,13 @@ $breakpoint-xl: 1280px !default;
 $breakpoint-xxl: 1440px !default;
 
 // Borders
+$border-radius: $standard-base-unit !default;
+$border-width: 1px !default;
 
 // Shadows
+$shadow-sm: 0 0 5px rgba(0, 0, 0, 0.1) !default;
+$shadow-md: 0 0 8px rgba(0, 0, 0, 0.1) !default;
+$shadow-lg: 0 0 10px rgba(0, 0, 0, 0.1) !default;
 
 // Z-Index
 $zindex-dropdown: 1000 !default;
