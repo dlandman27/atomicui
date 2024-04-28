@@ -1,0 +1,33 @@
+@import '../abstracts';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $font-primary;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    color: $neutral-dark;
+    background-color: $neutral-light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $spacing-sm;
+    font-family: $font-secondary;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
