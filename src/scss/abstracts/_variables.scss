@@ -1,0 +1,51 @@
+
+$standard-base-unit: 4px;
+
+// Color Pallete
+$primary-color: #007bff !default;
+$secondary-color: #6c757d !default;
+$accent-color: #6c757d !default;
+$neutral-light: #f8f9fa !default;
+$neutral-dark: #343a40 !default;
+$success-color: #28a745 !default;
+$info-color: #17a2b8 !default;
+$warning-color: #ffc107 !default;
+$danger-color: #dc3545 !default;
+
+// Typography
+$font-primary: 'Roboto', sans-serif !default;
+$font-secondary: 'Open Sans', sans-serif !default;
+$font-size-base: 1rem !default;
+$line-height-base: 1.5 !default;
+
+// Font Sizes
+$font-size-small: 0.875rem * $font-size-base !default;
+$font-size-large: 1.25rem * $font-size-base !default;
+
+// Spacing Scale
+$spacing-xs: $standard-base-unit * 1 !default;
+$spacing-sm: $standard-base-unit * 2 !default;
+$spacing-md: $standard-base-unit * 3 !default;
+$spacing-lg: $standard-base-unit * 4 !default;
+$spacing-xl: $standard-base-unit * 5 !default;
+
+// Breakpoints for Responsive Design
+$breakpoint-xs: 0 !default;
+$breakpoint-sm: 480px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 1024px !default;
+$breakpoint-xl: 1280px !default;
+$breakpoint-xxl: 1440px !default;
+
+// Borders
+
+// Shadows
+
+// Z-Index
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
